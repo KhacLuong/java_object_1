@@ -1,17 +1,25 @@
 import java.util.Scanner;
 
 public class Employee {
-    String employeeName;
-    String employeeAddress;
-    String employeePhone;
-    int employeeBirthday;
-    int employeeJoinYear;
+   private String employeeName;
+   private String employeeAddress;
+   private String employeePhone;
+   private int employeeBirthday;
+   private int employeeJoinYear;
     public Employee() {
 
     }
 
     public Employee(int id) {
         employeeJoinYear = id;
+    }
+
+    public String getName(){
+        return employeeName;
+    }
+    public String setName(String name1){
+        employeeName = name1;
+        return name1;
     }
     void displayEmployeeInformation(){
         System.out.println("Name : "+ employeeName);

@@ -41,7 +41,7 @@ public class Employeee {
         }
 
         public static void main(String[] args) {
-            Employeee emp = new Employeee();
+
 //            System.out.println("nhap Thong tin Nhan vien");
 //            emp1.input();
 //            System.out.println("Thong tin Nhan vien");
@@ -57,6 +57,7 @@ public class Employeee {
 //            emp1.displayEmployeeInformation();
 
             do{
+                Employeee emp = new Employeee();
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("ban lua chon theo huong dan duoi day");
                 System.out.println("chon 1: de them nhan vien");
