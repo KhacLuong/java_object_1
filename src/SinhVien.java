@@ -39,6 +39,7 @@ public class SinhVien {
     public static void main(String[] args) {
         int choice;
         SinhVien Sv1 = new SinhVien();
+        Scanner scanner = new Scanner(System.in);
         do{
             System.out.println("lua chon theo huong dan duoi day");
             System.out.println("chon 1: them Sinh Vien");
@@ -46,7 +47,7 @@ public class SinhVien {
             System.out.println("chon 3: thay doi so dien thoai");
             System.out.println("chon 4: thoat ra");
             System.out.println("---------------");
-            Scanner scanner = new Scanner(System.in);
+
             System.out.println("nhap lua chon cua ban");
             choice =scanner.nextInt();
             switch (choice){
